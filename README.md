@@ -4,7 +4,7 @@ This guide demonstrates how to integrate the Automotive Telematics API into your
 
 ---
 
-🔧 Installation
+## 🔧 Installation
 
 To get started, install the SDK using `pip`. 
 
@@ -12,8 +12,9 @@ To get started, install the SDK using `pip`.
 pip install automotive-telematics-sdk
 ```
 
-🚀 Getting Started
-Initialize the Client
+## 🚀 Getting Started
+
+### Initialize the Client
 To communicate with the API, you must first initialize the client with your secret API key.
 
 ```python
