@@ -36,7 +36,7 @@ print(f"Type: {record.service_type}")
 print(f"Mileage: {record.mileage}")
 ```
 
-Replace a Service Record `PUT`
+### Replace a Service Record `PUT`
 Replacing a record is handled through the `update_record` method.
 
 ```python
