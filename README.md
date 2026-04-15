@@ -16,17 +16,17 @@ pip install automotive-telematics-sdk
 Initialize the Client
 To communicate with the API, you must first initialize the client with your secret API key.
 
-```
+```python
 from automotive_sdk import VehicleClient
 
-Initialize with your API Key
+# Initialize with your API Key
 client = VehicleClient(api_key="YOUR_SECRET_KEY")
 ```
 
 Fetch a Service Record
 Once initialized, you can retrieve specific service records with just a few lines of code.
 
-```
+```python
 # Fetch record by ID
 
 record = client.get_service_record(record_id="12345")
@@ -39,7 +39,7 @@ print(f"Mileage: {record.mileage}")
 Replace a Service Record (`PUT`)
 Replacing a record is handled through the `update_record` method.
 
-```
+```python
 updated_data = {
     "date": "04-15-2026",
     "service_type": "Tire Rotation",
